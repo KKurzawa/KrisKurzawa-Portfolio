@@ -1,8 +1,10 @@
+
 .header {
     padding: 20px;
     font-family: 'Courier New', Courier, monospace;
     background-color: rgb(255, 0, 0);
     color: #ffffff;
+    display: flex;
 }
 
 .header h1 {
@@ -29,26 +31,72 @@
 
 .header div ul li {
     display: inline-block;
-    margin-left: 25px;
+   
 }
 
 .header a {
     color: #ffffff;
+    font-size: 1.5rem;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: space-around;
+}
+
+.header-left {
+    flex-grow: 1;
 }
 
 h2 {
-    font-size: 48px; 
-    font-family: 'Courier New', Courier, monospace;   
+    font-size: 30px; 
+    font-family: 'Courier New', Courier, monospace;
+    display: block;
+    flex-direction: column;
+    border-right: black;
+    justify-content: flex-end;
+    margin: 20px 40px 50px 30px;
+    
 }
 
-.contact div ul li {
+#contact ul li {
     padding-top: 15px;
     margin-right: 20px;
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
     display: inline-block;
+    
+
 }
 
-.contact div ul li a {
+#contact ul li a {
     color: black;
+}
+
+
+.innercontentblock {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.innercontentblock h2 {
+    width: 30%;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project img {
+  margin: 10px;
+  border: 2px solid black;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
 }

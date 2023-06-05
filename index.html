@@ -5,53 +5,52 @@
     <meta charset="UTF-8"/>
     <link rel="stylesheet" href="./Assets/css/reset.css">
     <link rel="stylesheet" href="./Assets/css/style.css">
-    <title>Kris Kurzawa Portfolio</title>
+    <title>Kris Kurzawa</title>
 </head>
 
 <body>
-    <div class="header">
-        <h1>Kris <span class="Kurzawa">Kurzawa </span>Portfolio</h1>
-        <div>
-            <ul>
-                <li>
-                    <a href="#about-me">About Me</a>
-                </li>
-                <li>
-                    <a href="#work">Work</a>
-                </li>
-                <li>
-                    <a href="#contact">Contact</a>
-                </li>
-                <li>
-                    <a href="/Users/kkurzawa/bootcamp/Challenges/C2KrisKurzawa-Portfolio/Assets/images/Resume.png">Resume</a>
-                </li>
-            </ul>
+    <header class="header">
+        <div class="header-left">
+        <h1>Kris <span class="Kurzawa">Kurzawa </span></h1>
+        <h3>Full-Stack Developer</h3>
         </div>
-    </div>
+        <nav class="header-right">
+            <a href="#about-me">About Me</a>
+            <a href="#work">Work</a>
+            <a href="#contact">Contact</a>
+            <a href="/Users/kkurzawa/bootcamp/Challenges/C2KrisKurzawa-Portfolio/Assets/images/Resume.png">Resume</a>
+        </nav>
+    </header>
 
-    <div class="content">
-        <div id="about-me" class="about-me">
+    <main>
+    <section class="content">
+        <div id="about-me" class="innercontentblock">
             <h2>About Me</h2>
-            <p>I am a musician learning to become a web developer.</p>
+            <p>I am a full-stack developer trainerd in HTML/CSS/GIT, Javascript, Bootstrap, API's, JQuery, JSON, AJAX, Node, E56, Express, and MySQL.  I am a life long musician/music educater as well, leading me to performences all over the world and a decade of music education in higher ed.  I have a bachelors and masters degree from Wayne State University where I am currently on staff as adjunct faculty.</p>
         </div>
-        <div id="work" class="work">
+        <div id="work" class="innercontentblock">
             <h2>Work</h2>
-            <div class="project">
-                <img src="/Users/kkurzawa/bootcamp/Challenges/C2KrisKurzawa-Portfolio/Assets/images/placeholder.png"/>
-            </div>
-            <div class="profect2">
-                <img src="/users/kkurzawa/bootcamp/Challenges/C2KrisKurzawa-Portfolio/Assets/images/placeholder.png"/>
-            </div>
-            <div class="profect3">
-                <img src="/users/kkurzawa/bootcamp/Challenges/C2KrisKurzawa-Portfolio/Assets/images/placeholder.png"/>
-            </div>
-            <div class="profect4">
-                <img src="/users/kkurzawa/bootcamp/Challenges/C2KrisKurzawa-Portfolio/Assets/images/placeholder.png"/>
+            <div class="projects">
+                <div class="project" id="project1">
+                    <header>Project 1</header>
+                    <img src="https://placehold.jp/300x150.png"/>
+                </div>
+                <div class="project" id="project2">
+                    <header>Project 2</header>
+                    <img src="https://placehold.jp/300x150.png"/>
+                </div>
+                <div class="project" id="project3">
+                    <header>Project 3</header>
+                    <img src="https://placehold.jp/300x150.png"/>
+                </div>
+                <div class="project" id="project4">
+                    <header>Project 4</header>
+                    <img src="https://placehold.jp/300x150.png"/>
+                </div>
             </div>
         </div>
-    <div id="contact" class="contact">
-        <h2>Contact Me</h2>
-        <div>
+        <div id="contact" class="innercontentblock">
+            <h2>Contact Me</h2>
             <ul>
                 <li>248 568 2806</li>
                 <li>
@@ -65,6 +64,7 @@
                 </li>
             </ul>
         </div>
-    </div>
+    </section>
+    </main>    
 </body>
 </html>
