@@ -34,32 +34,14 @@
 h2 {
     font-size: 50px; 
     font-family: 'Courier New', Courier, monospace;
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 30px;
-    border-right: 2px solid black;
-    margin: 10px 20px 10px 10px;
-    min-width: 350px
+ 
     
     
 }
 
-#contact ul {
-    display: flex;
-}
 
-#contact ul li {
-    padding-top: 15px;
-    margin-right: 20px;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 22px;
-    display: flex;
-    align-items: center;
-    margin-right: 75px;
 
-}
-
-#contact ul li a {
+#contact div a {
     color: black;
 }
 
@@ -68,31 +50,37 @@ h2 {
     display: flex;
     width: 100%;
     justify-content: space-between;
+    padding: 0.5rem;
 }
 
-.innercontentblock h2 {
-    width: 30%;
-}
-
-.projects {
+.content-title {
+    border-right: 4px solid black;
     display: flex;
-    flex-wrap: wrap;
-    max-width: 770px;
+    justify-content:flex-end;
+    padding-right: 1rem;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.innercontentdetails {
+    flex-grow: 2;
+    flex-basis: 0;
+    padding: 1rem;
+}
+
+
+.project-row .project {
+    flex-grow: 1;
 }
 
 .project img {
-  margin: 10px;
+  width: 100%;
   border: 2px solid black;
 }
 
 p {
     font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
-    max-width: 620px;
-    max-height: 150px;
-    margin-top: 16px;
-    margin-bottom: 40px;
-    margin-right: 130px;
     font-size: 18px;
 }
 
@@ -100,17 +88,6 @@ p {
     width: 100%;
 }
 
-@media screen and (max-width: 992px) {
-    .guitar {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .guitar  {
-        width: 100%;
-    }
-}
-    
+  
 
 
