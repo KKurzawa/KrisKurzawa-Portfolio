@@ -8,30 +8,11 @@
 }
 
 .header h1 {
-    display: inline-block;
     font-size: 48px;    
 }
 
 .header h1 .Kurzawa {
     color: rgb(156, 152, 152);
-}
-
-.header div {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
-}
-
-.header div ul {
-    list-style-type: none;
-    
-}
-
-.header div ul li {
-    display: inline-block;
-   
 }
 
 .header a {
@@ -54,9 +35,7 @@ h2 {
     font-size: 30px; 
     font-family: 'Courier New', Courier, monospace;
     display: block;
-    flex-direction: column;
-    border-right: black;
-    justify-content: flex-end;
+    border-right: 2px solid black;
     margin: 20px 40px 50px 30px;
     
 }
@@ -66,7 +45,8 @@ h2 {
     margin-right: 20px;
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
-    display: inline-block;
+    display: flex;
+    align-items: center;
     
 
 }
@@ -99,4 +79,10 @@ h2 {
 p {
     font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
+    max-width: 620px;
+    max-height: 150px;
+}
+
+.guitar img {
+    width: 100%;
 }
