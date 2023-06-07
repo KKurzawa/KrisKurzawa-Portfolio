@@ -1,7 +1,9 @@
-
+:root {
+    --common-font: 'Courier New', Courier, monospace;  
+}
 .header {
     padding: 20px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: var(--common-font);
     background-color: rgb(255, 0, 0);
     color: #ffffff;
     display: flex;
@@ -37,7 +39,7 @@
 
 h2 {
     font-size: 50px; 
-    font-family: 'Courier New', Courier, monospace;
+    font-family: var(--common-font);
 }
 
 .innercontentblock {
@@ -63,7 +65,7 @@ h2 {
 }
 
 p {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: var(--common-font);
     font-weight: bolder;
     font-size: 18px;
 }
@@ -79,13 +81,21 @@ p {
 .project img {
   width: 100%;
   border: 2px solid black;
+
 }
 
-#contact div a {
-    color: black;
+#contactlinks a {
+    color: black; 
+    display: inline-flex;
+    font-family: var(--common-font);
+    font-weight: bolder;
+    font-size: 18px;
 }
 
-
+#contactlinks.innercontentdetails {
+    display:inline-flex;
+    justify-content: space-around;
+}
 
     
 
