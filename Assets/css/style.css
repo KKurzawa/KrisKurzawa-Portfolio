@@ -31,20 +31,14 @@
     flex-grow: 1;
 }
 
+.guitar img {
+    width: 100%;
+}
+
 h2 {
     font-size: 50px; 
     font-family: 'Courier New', Courier, monospace;
- 
-    
-    
 }
-
-
-
-#contact div a {
-    color: black;
-}
-
 
 .innercontentblock {
     display: flex;
@@ -68,6 +62,15 @@ h2 {
     padding: 1rem;
 }
 
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.project-row {
+    display: flex;
+}
 
 .project-row .project {
     flex-grow: 1;
@@ -78,16 +81,12 @@ h2 {
   border: 2px solid black;
 }
 
-p {
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bolder;
-    font-size: 18px;
+#contact div a {
+    color: black;
 }
 
-.guitar img {
-    width: 100%;
-}
 
-  
+
+    
 
 
