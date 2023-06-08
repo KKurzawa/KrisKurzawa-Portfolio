@@ -5,7 +5,7 @@
     padding: 20px;
     font-family: var(--common-font);
     background-color: rgb(255, 0, 0);
-    color: #ffffff;
+    color: white;
     display: flex;
 }
 
@@ -98,6 +98,34 @@ p {
     justify-content: space-around;
 }
 
+@media screen and (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items:center;
+    }
+
+    .header a {
+        font-size: 1rem;
+    }
+    .header-right {
+        display: block;
+    }
+
+    .innercontentblock {
+        display: block;
+    }
+    .content-title { 
+        display: block;
+        border-bottom: 4px solid black;
+        border-right: none;
+        text-align: center;
+    } 
+    #contactlinks.innercontentdetails {
+        display: block;
+        text-align: center;
+    }
     
-
-
+    #contactlinks a {
+        padding: 5px;
+    }
+}
