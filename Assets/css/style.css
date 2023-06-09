@@ -1,147 +1,169 @@
 :root {
-    --common-font: 'Courier New', Courier, monospace;  
+  --common-font: "Courier New", Courier, monospace;
 }
 .header {
-    padding: 20px;
-    font-family: var(--common-font);
-    background-color: rgb(255, 0, 0);
-    color: white;
-    display: flex;
+  padding: 20px;
+  font-family: var(--common-font);
+  background-color: rgb(255, 0, 0);
+  color: white;
+  display: flex;
 }
 
 .header h1 {
-    font-size: 48px;    
+  font-size: 48px;
 }
 
 .header h1 .Kurzawa {
-    color: rgb(156, 152, 152);
+  color: rgb(156, 152, 152);
 }
 
 .header a {
-    color: #ffffff;
-    font-size: 1.5rem;
+  color: #ffffff;
+  font-size: 1.5rem;
 }
 
 .header-right {
-    display: flex;
-    align-items: center;
-    flex-grow: 1;
-    justify-content: space-around;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  justify-content: space-around;
 }
 
 .header-left {
-    flex-grow: 1;
+  flex-grow: 1;
 }
 
 .guitar img {
-    width: 100%;
-    display: inline-block;
+  width: 100%;
+  display: inline-block;
 }
 
 h2 {
-    font-size: 50px; 
-    font-family: var(--common-font);
+  font-size: 50px;
+  font-family: var(--common-font);
 }
 
 .innercontentblock {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    padding: 0.5rem;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0.5rem;
 }
 
 .content-title {
-    border-right: 4px solid black;
-    display: flex;
-    justify-content:flex-end;
-    padding-right: 1rem;
-    flex-grow: 1;
-    flex-basis: 0;
+  border-right: 4px solid black;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 1rem;
+  flex-grow: 1;
+  flex-basis: 0;
 }
 
 .innercontentdetails {
-    flex-grow: 2;
-    flex-basis: 0;
-    padding: 1rem;
+  flex-grow: 2;
+  flex-basis: 0;
+  padding: 1rem;
 }
 
 p {
-    font-weight: bolder;
-    font-size: 18px;
+  font-weight: bolder;
+  font-size: 18px;
 }
 
 .project-row {
-    display: flex;
+  display: flex;
 }
 
 .project-row .project {
-    flex-grow: 1;
+  flex-grow: 1;
+  position: relative;
 }
 
 .project img {
   width: 100%;
   border: 2px solid black;
-
 }
 
-/* #project1 header {
-    position: relative;
-    font-size: 35px;
-    top: 275px;
-    left: 20px;
-    z-index: 1;
-} */
+.project header {
+  position: absolute;
+  bottom: 5%;
+  left: 2%;
+  font-size: 150%;
+  background-color: red;
+  border: 2px solid black;
+  padding: 0.5%;
+  color: black;
+}
+
+#project1 header {
+  position: absolute;
+  bottom: 5%;
+  left: 1%;
+  font-size: 150%;
+  background-color: red;
+  border: 2px solid black;
+  padding: 0.5%;
+  color: black;
+}
 
 #contactlinks a {
-    color: black; 
-    display: inline-flex;
-    font-family: var(--common-font);
-    font-weight: bolder;
-    font-size: 18px;
+  color: black;
+  display: inline-flex;
+  font-family: var(--common-font);
+  font-weight: bolder;
+  font-size: 18px;
 }
 
 #contactlinks.innercontentdetails {
-    display:inline-flex;
-    justify-content: space-around;
+  display: inline-flex;
+  justify-content: space-around;
 }
 
 @media screen and (max-width: 768px) {
-    .header {
-        flex-direction: column;
-        align-items:center;
-    }
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .header h1 {
-        text-align: center;
-    }
-    
-    .header h3 {
-        text-align: center;
-    }
-    .header a {
-        font-size: 1rem;
-    }
-    .header-right {
-        display: block;
-        padding-top: 20px;
-        margin-bottom: -15px;
-    }
+  .header h1 {
+    text-align: center;
+  }
 
-    .innercontentblock {
-        display: block;
-    }
-    .content-title { 
-        display: block;
-        border-bottom: 4px solid black;
-        border-right: none;
-        text-align: center;
-    } 
-    #contactlinks.innercontentdetails {
-        display: block;
-        text-align: center;
-    }
-    
-    #contactlinks a {
-        padding: 5px;
-    }
+  .header h3 {
+    text-align: center;
+  }
+  .header a {
+    font-size: 1rem;
+  }
+  .header-right {
+    display: block;
+    padding-top: 20px;
+    margin-bottom: -15px;
+  }
+
+  .innercontentblock {
+    display: block;
+  }
+  .content-title {
+    display: block;
+    border-bottom: 4px solid black;
+    border-right: none;
+    text-align: center;
+  }
+  #contactlinks.innercontentdetails {
+    display: block;
+    text-align: center;
+  }
+
+  #contactlinks a {
+    padding: 5px;
+  }
+
+  .project header {
+    font-size: 100%;
+  }
+
+  #project1 header {
+    font-size: 100%;
+  }
 }
