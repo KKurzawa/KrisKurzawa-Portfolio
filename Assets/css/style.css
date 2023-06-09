@@ -90,9 +90,11 @@ p {
   left: 2%;
   font-size: 150%;
   background-color: red;
-  border: 2px solid black;
+  border: 1px solid black;
   padding: 0.5%;
-  color: black;
+  color: white;
+  font-family: var(--common-font);
+  text-decoration: underline;
 }
 
 #project1 header {
@@ -101,9 +103,11 @@ p {
   left: 1%;
   font-size: 150%;
   background-color: red;
-  border: 2px solid black;
+  border: 1px solid black;
   padding: 0.5%;
-  color: black;
+  color: white;
+  font-family: var(--common-font);
+  text-decoration: underline;
 }
 
 #contactlinks a {
@@ -160,10 +164,10 @@ p {
   }
 
   .project header {
-    font-size: 100%;
+    font-size: 85%;
   }
 
   #project1 header {
-    font-size: 100%;
+    font-size: 85%;
   }
 }
