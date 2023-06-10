@@ -17,9 +17,8 @@
   color: rgb(156, 152, 152);
 }
 
-.header a {
-  color: #ffffff;
-  font-size: 1.5rem;
+.header-left {
+  flex-grow: 1;
 }
 
 .header-right {
@@ -28,9 +27,9 @@
   flex-grow: 1;
   justify-content: space-around;
 }
-
-.header-left {
-  flex-grow: 1;
+.header a {
+  color: #ffffff;
+  font-size: 1.5rem;
 }
 
 .guitar img {
@@ -90,7 +89,6 @@ p {
   left: 2%;
   font-size: 150%;
   background-color: black;
-  /* border: 1px solid black; */
   padding: 0.5%;
   color: white;
   font-family: var(--common-font);
@@ -103,7 +101,6 @@ p {
   left: 1%;
   font-size: 150%;
   background-color: black;
-  /* border: 1px solid black; */
   padding: 0.5%;
   color: white;
   font-family: var(--common-font);
@@ -136,9 +133,11 @@ p {
   .header h3 {
     text-align: center;
   }
+
   .header a {
     font-size: 1rem;
   }
+
   .header-right {
     display: block;
     padding-top: 20px;
@@ -148,12 +147,14 @@ p {
   .innercontentblock {
     display: block;
   }
+
   .content-title {
     display: block;
     border-bottom: 4px solid black;
     border-right: none;
     text-align: center;
   }
+
   #contactlinks.innercontentdetails {
     display: block;
     text-align: center;
