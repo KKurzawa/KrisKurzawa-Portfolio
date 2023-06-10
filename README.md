@@ -9,7 +9,7 @@ This project is a website for my personal career as a full-stack web developer. 
 The navigation bar directs the user to each section of the page when the section is clicked on. The Resume link will display my resume as a musician/music educator, as my full-stack web developer resume is in its infancy. The image of the guitar is a close up picture of me performing with my main guitar. The images in the 'Work' section will currently direct the user to my Linkdin page as this is the first project I've created from scratch. Once I have more work to display the links will lead to those projects. The links in the contact me are functional and take the user to the correct place when clicked on. The site layout changes appropriately as device screen width changes as displayed in the screenshots below.
 
 Screenshots:
-![Laptop top](./assets/images/Laptop_top.png)
+![Laptop top](https://raw.githubusercontent.com/KKurzawa/C2KrisKurzawa-Portfolio/main/Assets/images/Laptop_Top.png)
 ![Laptop top](./assets/images/Laptop_bottom.png)
 ![Laptop top](./assets/images/Mobile_top.png)
 ![Laptop top](./assets/images/Mobile_bottom.png)
