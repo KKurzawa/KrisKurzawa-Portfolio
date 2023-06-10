@@ -10,9 +10,9 @@ The navigation bar directs the user to each section of the page when the section
 
 Screenshots:
 ![Laptop top](https://raw.githubusercontent.com/KKurzawa/C2KrisKurzawa-Portfolio/main/Assets/images/Laptop_Top.png)
-![Laptop top](./assets/images/Laptop_bottom.png)
-![Laptop top](./assets/images/Mobile_top.png)
-![Laptop top](./assets/images/Mobile_bottom.png)
+![Laptop top](https://github.com/KKurzawa/C2KrisKurzawa-Portfolio/blob/main/Assets/images/Laptop_Bottom.png?raw=true)
+![Laptop top](https://github.com/KKurzawa/C2KrisKurzawa-Portfolio/blob/main/Assets/images/Mobile_Top.png?raw=true)
+![Laptop top](https://github.com/KKurzawa/C2KrisKurzawa-Portfolio/blob/main/Assets/images/Mobile_Bottom.png?raw=true)
 
 Website url:https://kkurzawa.github.io/C2KrisKurzawa-Portfolio/
 Github Repository:https://github.com/KKurzawa/C2KrisKurzawa-Portfolio.git
