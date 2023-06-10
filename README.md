@@ -14,7 +14,8 @@ Screenshots:
 ![Laptop top](./assets/images/Mobile_top.png)
 ![Laptop top](./assets/images/Mobile_bottom.png)
 
-Website url:
+Website url:https://kkurzawa.github.io/C2KrisKurzawa-Portfolio/
+Github Repository:https://github.com/KKurzawa/C2KrisKurzawa-Portfolio.git
 
 ## CREDITS
 
