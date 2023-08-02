@@ -95,18 +95,6 @@ p {
   text-decoration: underline;
 }
 
-#project1 header {
-  position: absolute;
-  bottom: 5%;
-  left: 1%;
-  font-size: 150%;
-  background-color: black;
-  padding: 0.5%;
-  color: white;
-  font-family: var(--common-font);
-  text-decoration: underline;
-}
-
 #contactlinks a {
   color: black;
   display: inline-flex;
