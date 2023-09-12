@@ -83,13 +83,32 @@ p {
   border: 2px solid black;
 }
 
-.project header {
+.project header
+ {
   position: absolute;
   bottom: 5%;
   left: 2%;
   font-size: 150%;
   background-color: black;
   padding: 0.5%;
+  color: white;
+  font-family: var(--common-font);
+  text-decoration: underline;
+}
+
+.projectText {
+  font-size: 100%;
+  color: black;
+  font-family: var(--common-font);
+  margin-top: .5rem;
+  margin-bottom: 3rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.repositoryText {
+  font-size: 150%;
+  background-color: black;
   color: white;
   font-family: var(--common-font);
   text-decoration: underline;
