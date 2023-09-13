@@ -1,6 +1,6 @@
-# C2KrisKurzawa-Portfolio
+# KrisKurzawa-Portfolio
 
-## Challenge 2 in MSU Bootcamp
+## Description
 
 This project is a website for my personal career as a full-stack web developer. It was created so the public can see a snapshot of my projects in one place and provide links to these projects along with links to my contact info, github page, Linkdin profile, and resume. It allows easy access to me and my work to those interested. This project sharpened my HTML and CSS toolkit. Most specifically the use of CSS variables and media queries.
 
@@ -14,9 +14,9 @@ Screenshots:
 ![Laptop top](https://github.com/KKurzawa/C2KrisKurzawa-Portfolio/blob/main/Assets/images/Mobile_Top.png?raw=true)
 ![Laptop top](https://github.com/KKurzawa/C2KrisKurzawa-Portfolio/blob/main/Assets/images/Mobile_Bottom.png?raw=true)
 
-Website url:https://kkurzawa.github.io/C2KrisKurzawa-Portfolio/
+Website url:https://kkurzawa.github.io/KrisKurzawa-Portfolio/
 
-Github Repository:https://github.com/KKurzawa/C2KrisKurzawa-Portfolio.git
+Github Repository:https://github.com/KKurzawa/KrisKurzawa-Portfolio.git
 
 ## CREDITS
 
